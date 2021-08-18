@@ -38,11 +38,72 @@ body {
     border-bottom-right-radius: 30px;
 }
 
-.cart-summary p {
+.cart-summary h1 {
     margin: 0;
     text-align: center;
     padding-top: 30px;
-    font-family: 'Red Hat Display', sans-serif;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 700;
+}
+
+.cart-summary p {
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 200;
+    color: #929494;
+    line-height: 25px;
+}
+
+.plan {
+    margin: 25px 50px 30px 50px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 9px;
+    background-color: hsl(225, 100%, 98%);
+
+}
+
+.music-img {
+    padding: 20px 20px;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.price-color {
+    color: #929494;
+    margin-top: 5px;
+}
+
+.change {
+    padding: 30px;
+    margin-left: 45px;
+}
+
+.change a {
+    color: hsl(245, 75%, 52%);
+}
+
+.payment {
+    padding: 17px 17px 17px 17px;
+    margin: 0px 50px;
+    display: flex;
+    justify-content: center;
+    color:hsl(225, 100%, 94%);
+    font-weight: 700;
+    border-radius: 15px;
+    background-color: hsl(245, 75%, 52%);
+}
+
+.cancel {
+    margin: 25px 50px 30px 50px;
+    display: flex;
+    justify-content: center;
+    color: #929494;
+    font-weight: 700;
 }
